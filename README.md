@@ -11,12 +11,12 @@ Beautiful Soup is used once again on another website with this url: 'https://sta
 
 **1. How many months are on Mars?**
 
-In order to answer this question, the DataFrame is grouped by month and then the count of each month in the dataset is found.  
+In order to answer this question, the DataFrame is grouped by month to see the number of unique months present in the dataset.  
 
 
 **2. How many Mars days of data is contained in this dataset?**
 
-To solve this problem, the length of values in the column 'sol' in the 'mars_dataframe' DataFrame is calculated.
+To solve this problem, the length of unique values in the column 'sol' in the 'mars_dataframe' DataFrame is calculated.
 
 
 **3. What are the warmest and coldest months on Mars?**
